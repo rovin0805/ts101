@@ -91,4 +91,9 @@ const getHashForBlock = (aBlock: Block): string =>
     aBlock.data
   );
 
+createNewBlock('2nd block');
+createNewBlock('3rd block');
+createNewBlock('4th block');
+console.log(blockchain);
+
 export {};
