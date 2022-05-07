@@ -4,10 +4,10 @@
     "module": "commonjs",
     "sourceMap": true,
     "outDir": "dist",
-    "lib": ["es6", "DOM"],
+    "lib": ["es6"],
     "strict": true,
-    "esModuleInterop": true,
-    "allowJs": true
+    "esModuleInterop": true
+    // "allowJs": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
