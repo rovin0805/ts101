@@ -1,8 +1,11 @@
 import * as CryptoJS from 'crypto-js';
 import { init, add } from 'myPackage';
+import { init2, minus } from './myPackage2';
 
 init({ url: '' });
 add(1);
+init2({ debug: true, url: '' });
+minus(1);
 
 class Block {
   public index: number;
